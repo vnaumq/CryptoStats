@@ -1,0 +1,8 @@
+requests
+matplotlib
+pandas
+python-dotenv
+schedule
+numpy
+tabulate
+pyyaml

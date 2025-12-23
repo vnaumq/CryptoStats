@@ -1,0 +1,58 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Данные и логи
+logs/
+charts/
+snapshots/
+backups/
+*.log
+*.csv
+*.json
+*.png
+*.jpg
+
+# Системные файлы
+.DS_Store
+Thumbs.db
