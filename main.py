@@ -30,8 +30,12 @@ def update_balance():
     print("-" * 50)
 
     # Сохранение в историю
-    data_handler.save_balance_to_history(balance_data)
-    print("Данные сохранены")
+    if balance_data != 0:
+        data_handler.save_balance_to_history(balance_data)
+        print("Данные сохранены")
+    else:
+        print('Баланс 0, ОШИБКА')
+        raise ValueError
 
     return balance_data
 
